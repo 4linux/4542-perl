@@ -37,8 +37,8 @@ unless ($redis->get('page')) {
         <li>
             <h2>E então esta aplicação em <b>Perl</b> foi criada!</h2>
             <p>
-            Esta aplicação se conecta ao <b>Redis</b> que está no endereço
-            <tt><% REDIS_SERVER %></tt> e puxa toda esta página em HTML! Além disso
+            Esta aplicação se conecta ao <b>Redis</b> que está dentro
+            do Openshift, puxando toda esta página em HTML! Além disso
             do lado direito podemos ver alguns valores extraídos do <b>Redis</b>.
             </p>
         </li>
